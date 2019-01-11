@@ -1,0 +1,13 @@
+https://www.pythonsheets.com/notes/python-sqlalchemy.html
+
+
+https://stackoverflow.com/questions/42579079/flask-post-data-to-table-using-sqlalchemy-mysql
+
+
+status_code = 401
+#logger.error(str(e), exc_info=True)
+resp = make_response(jsonify(emp_data))
+resp.status_code = status_code
+print('data', resp)
+return resp 
+try this
