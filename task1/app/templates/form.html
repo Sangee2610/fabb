@@ -1,0 +1,44 @@
+{% extends "appbuilder/base.html" %}
+
+{% block content %}
+
+<html>
+<head>
+<title>My Form</title>
+</head>
+<body>
+
+<form action="/success" target="_blank" method="POST">
+
+  Name:
+  <input type="text" name="name" >
+  <br><br>
+
+  Designation:
+  <input type="text" name="designation" >
+  <br><br>
+
+  Company:
+  <input type="text" name="company">
+  <br><br>
+
+  Job Location:
+  <input type="text" name="job_location">
+  <br><br><br>
+
+  <input type="submit" value="Submit">
+
+
+</form>
+
+
+</body>
+</html>
+
+{% endblock %}
+
+
+
+
+
+
